@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: flask-github-proxy
+Version: 0.0.2
+Summary:  Plugin to build services to push data from a website to github with PullRequests confirmation
+    
+Home-page: https://github.com/ponteineptique/flask-github-proxy
+Author: Thibault Clerice
+Author-email: leponteineptique@gmail.com
+License: GNU GPL
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Internet :: Proxy Servers

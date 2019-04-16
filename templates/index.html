@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+
+
+{% block content %}
+
+    <h1>Login with GitHub</h1>
+
+    {% if is_login %}
+
+        Hello, <b>{{ username }}</b>!<br>
+
+        Look, we get this avatar from <a href="{{ url }}">your GitHub account</a>:<br><br>
+
+        <img src="{{ avatar }}"><br><br>
+
+        You can click <a href="{{ url_for('get_user') }}">here</a> to see more information we get.<br><br>
+
+    {% else %}
+
+        <a class="btn" href="{{ url_for('login') }}">Login with GitHub</a>
+
+    {% endif %}
+
+{% endblock %}
